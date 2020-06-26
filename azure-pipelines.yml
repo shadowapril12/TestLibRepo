@@ -18,4 +18,5 @@ steps:
     git config --global user.email "shadowapril12@gmail.com"
     git checkout remotes/origin/CountChars2
     git cherry-pick e3f76e731e24e34ba44a8de9dc38ffd5f031a2fc
-  displayName: 'Trying to cherry-pick'
+    git push origin CountChars2
+  displayName: 'Cherry-pick and push'
