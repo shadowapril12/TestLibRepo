@@ -14,5 +14,5 @@ steps:
   persistCredentials: true
 
 - script: |
-    git branch -a
-  displayName: 'List of branches'
+    git checkout remotes/origin/CountChars2
+  displayName: 'Switching to another branch'
