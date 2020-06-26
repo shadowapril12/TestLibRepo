@@ -15,4 +15,5 @@ steps:
 
 - script: |
     git checkout remotes/origin/CountChars2
+    git branch
   displayName: 'Switching to another branch'
