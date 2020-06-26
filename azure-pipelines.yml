@@ -14,5 +14,5 @@ steps:
   persistCredentials: true
 
 - script: |
-    git branch
+    git branch -a
   displayName: 'List of branches'
