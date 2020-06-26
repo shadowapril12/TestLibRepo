@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Reference Include="CountingLib">
-      <HintPath>..\..\CountingLib\CountingLib\bin\Debug\netcoreapp3.1\CountingLib.dll</HintPath>
+      <HintPath>C:\Users\Nikolay\source\repos\CountingLib\CountingLib\bin\Debug\netcoreapp3.1\CountingLib.dll</HintPath>
     </Reference>
   </ItemGroup>
 
