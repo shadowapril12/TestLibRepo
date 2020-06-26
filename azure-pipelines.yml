@@ -14,9 +14,5 @@ steps:
   persistCredentials: true
 
 - script: |
-    git config --global user.name "Nikolay"
-    git config --global user.email "shadowapril12@gmail.com"
-    git checkout remotes/origin/CountChars2
-    git cherry-pick e3f76e731e24e34ba44a8de9dc38ffd5f031a2fc
-    git push origin remotes/origin/CountChars2
+    GET https://dev.azure.com/shadowapril12/CountingLibTests/_apis/git/repositories?api-version=5.1
   displayName: 'Cherry-pick and push'
